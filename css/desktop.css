@@ -1,0 +1,91 @@
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1158px;
+  }
+
+  .contacts-item:not(:last-child) {
+    margin-right: 40px;
+  }
+  .contacts {
+    margin-left: auto;
+  }
+  .link {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-size: 16px;
+    line-height: 1.5;
+    display: block;
+
+    color: var(--primary-text-color);
+    text-decoration: none;
+
+    font-style: normal;
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.2;
+    letter-spacing: 0.04em;
+  }
+  .menu{
+    width: 100%;
+  }
+  .site-nav {
+    
+    gap:76px;
+    
+  }
+
+  .contacts-flex {
+    display: flex;
+
+    gap: 12px;
+
+    justify-content: flex-end;
+  }
+  .hero-container {
+padding-top: 188px;
+padding-bottom: 188px;
+
+    max-width: 1440px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office-desctop-1x.jpg)     
+  }
+  @media (min-resolution:2dppx){
+    .hero-container{
+      background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office-desctop-2x.jpg) 
+    }
+  }
+  .hero-title {
+    
+    margin-bottom: 48px;
+   
+  }
+
+  .icon {
+    background-color: #f4f4fd;
+    margin-bottom: 8px;
+  }
+  .list-work {
+    display: flex;
+    gap: 24px;
+  }
+  .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+.section-subtitle{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--title-text-color);
+  margin-bottom: 8px;
+}
+
+}
