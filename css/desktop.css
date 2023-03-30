@@ -91,5 +91,8 @@ padding-bottom: 188px;
   color: var(--title-text-color);
   margin-bottom: 8px;
 }
+.container-exemple{
 
+  display: block;
+}
 }

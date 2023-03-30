@@ -547,7 +547,10 @@ margin-bottom: 8px;
   font-size: 20px;
   line-height: 1.2;
 }
+.container-exemple{
 
+  display: none;
+}
 .list-exemple {
   display: flex;
   gap: 24px;
