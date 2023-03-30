@@ -119,10 +119,14 @@
        width: 408px;
     height: 584px;
      }
+.work-item{
+  width: 356px;
+}
 
-
-
-
+.list-work{
+  justify-content: space-between;
+  gap:0;
+}
 
 
 

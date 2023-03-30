@@ -69,12 +69,16 @@ padding-bottom: 188px;
   }
 
   .icon {
+    display: block;
     background-color: #f4f4fd;
     margin-bottom: 8px;
   }
   .list-work {
     display: flex;
-    gap: 24px;
+  
+  }
+  .work-item{
+    width: 264px;
   }
   .section {
     padding-top: 120px;
