@@ -50,10 +50,10 @@
     display: flex;
     gap: 40px;
   }
-.contacts{
-  display: flex;
-  align-items: center;
-}
+  .contacts {
+    display: flex;
+    align-items: center;
+  }
   .contacts-flex {
     display: flex;
     flex-wrap: wrap;
@@ -90,17 +90,17 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people-office-tablet-1x.jpg)     
+      url(../images/people-office-tablet-1x.jpg);
   }
-  @media (min-resolution:2dppx){
-    .hero-container{
-      padding-bottom: 112px;  
+  @media (min-resolution: 2dppx) {
+    .hero-container {
+      padding-bottom: 112px;
 
       background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/people-office-tablet-2x.jpg) 
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office-tablet-2x.jpg);
     }
   }
   .hero-title {
@@ -116,22 +116,65 @@
   }
   .modal {
     padding: 72px 24px 24px;
-       width: 408px;
+    width: 408px;
     height: 584px;
-     }
-.work-item{
-  width: 356px;
+  }
+  .work-item {
+    width: 356px;
+  }
+
+  .list-work {
+    justify-content: space-between;
+    row-gap: 67px;
+    column-gap: 24px;
+  }
+  .team-list {
+    flex-direction: unset;
+    flex-wrap: wrap;
+    row-gap: 64px;
+    column-gap: 24px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .team-list-item {
+    margin: 0;
+  }
+  .customers-list {
+    column-gap: 24px;
+  }
+  .footer-container {
+    padding-left: 108px;
+    display: flex;
+    column-gap: 24px;
+    flex-wrap: wrap;
+    text-align: start;
+  }
+  .footer-logo-item {
+   margin-right: unset;
+   margin-left: unset;
+   
+  }
+  .footer-subtitle {
+   text-align: start;
+  }
+  .footer-social {
+   
+    margin-right: unset;
+    margin-left: unset;
+  }
+.form-futer{
+  display: flex;
+  gap: 24px;
 }
 
-.list-work{
-  justify-content: space-between;
-  gap:0;
+.futer-form-btn {
+  margin-top: unset;
+   
 }
-
-
-
-
-
+.futer-input{
+  width: 264px;
+}
 
 
 
@@ -142,5 +185,7 @@
   .menu {
     display: none;
   }
+  
+
   
 }
